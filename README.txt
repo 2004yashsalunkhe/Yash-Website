@@ -1,24 +1,24 @@
-YASH SALUNKHE — FINTECH & DATA ANALYTICS PORTFOLIO
+YASH SALUNKHE — PROFESSIONAL PORTFOLIO
 
-This version is personalized with the details available from your resume and previous portfolio work.
-
-FILES
+Files:
 - index.html
 - style.css
 - script.js
-- Yash Salunkhe_ATS Resume .pdf
+- Yash Salunkhe_ATS Resume.pdf
 
-RUN IN VS CODE
-1. Extract the ZIP.
-2. Open the folder in VS Code.
-3. Open index.html.
-4. Use Live Server, or simply open index.html in a browser.
+The YS logo/mark has been removed. The top-left now shows the name “Yash.”
 
-PERSONAL LINKS ALREADY ADDED
-- Email: 2004yashsalunkhe@gmail.com
-- Phone: +91 73046 02004
-- LinkedIn: https://www.linkedin.com/in/yashsalunkhe2004/
-- Resume: included in this folder and linked from the Contact section.
+GSAP is included through jsDelivr in index.html. Internet is needed for the GSAP CDN and Google Fonts.
 
-POWER BI / TABLEAU LINKS
-The individual dashboard URLs were not available in the supplied materials, so no fake links were added. Once you have the Publish/Share links, replace the project cards with those real URLs.
+Run in VS Code:
+1. Extract/open this folder in VS Code.
+2. Install Live Server extension (optional but recommended).
+3. Right-click index.html -> Open with Live Server.
+
+Deploy to Vercel:
+- Push these files to GitHub.
+- Import the repository into Vercel.
+- Framework: Other.
+- Build command/output directory can remain blank.
+
+All long social/project URLs are kept in the backend HTML href attributes; visitors see only short labels.
