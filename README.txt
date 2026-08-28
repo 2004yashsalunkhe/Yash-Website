@@ -1,24 +1,26 @@
-YASH SALUNKHE — PROFESSIONAL PORTFOLIO
+# Yash Salunkhe Portfolio — Button Fix
 
-Files:
-- index.html
-- style.css
-- script.js
-- Yash Salunkhe_ATS Resume.pdf
+## Fixed issues
 
-The YS logo/mark has been removed. The top-left now shows the name “Yash.”
+1. Desktop/laptop:
+   - VIEW WORK and CONTACT are separate.
+   - 16px gap between the buttons.
+   - Buttons cannot overlap/merge.
 
-GSAP is included through jsDelivr in index.html. Internet is needed for the GSAP CDN and Google Fonts.
+2. Mobile:
+   - VIEW WORK is no longer positioned on the right side of the Yash Salunkhe heading.
+   - VIEW WORK and CONTACT appear horizontally in one row below the description.
+   - Responsive sizing is included for small phones.
 
-Run in VS Code:
-1. Extract/open this folder in VS Code.
-2. Install Live Server extension (optional but recommended).
-3. Right-click index.html -> Open with Live Server.
+## Run in VS Code
 
-Deploy to Vercel:
-- Push these files to GitHub.
-- Import the repository into Vercel.
-- Framework: Other.
-- Build command/output directory can remain blank.
+1. Extract the ZIP.
+2. Open the folder in VS Code.
+3. Open `index.html`.
+4. Use Live Server, or simply open `index.html` in a browser.
 
-All long social/project URLs are kept in the backend HTML href attributes; visitors see only short labels.
+## Important for your existing React/Vite project
+
+The key CSS is in `style.css`. If you already have your portfolio project, copy the `.hero-actions`, `.hero-btn`, and mobile `@media (max-width: 768px)` rules into your existing CSS.
+
+Also remove any old `position: absolute`, `right: 0`, `top: ...`, or transform rules that were specifically positioning VIEW WORK on the right side.
