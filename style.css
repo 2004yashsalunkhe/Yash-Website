@@ -11,8 +11,6 @@ body{font-size:16px;color:var(--text)}
 .hero-text strong{color:#f5f1e9}
 .meta{font-size:10px;color:#858078}
 .scroll{font-size:10px;color:#99948c}
-.hero-tags{position:absolute;right:0;bottom:28px;display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end;max-width:55%;color:#89847c;font-size:10px;letter-spacing:.14em}
-.hero-tags span{border:1px solid #2f2e2a;padding:8px 10px;background:rgba(7,7,7,.55)}
 .btn{font-size:11px;font-weight:600}
 .panel p:not(.lead),.card p,.exp>p,.project p{font-size:17px;color:#b4b0a8}
 .info span,.card>span,.contact-grid span,.project-count span{font-size:12px;color:#8f8a82}
@@ -29,8 +27,8 @@ body{font-size:16px;color:var(--text)}
 .btn-icon{display:inline-flex;align-items:center;justify-content:center;font-size:14px}
 @media(max-width:850px){
  .hero-text{font-size:18px;line-height:1.8}
- .hero-tags{position:relative;right:auto;bottom:auto;margin-top:30px;max-width:100%;justify-content:flex-start}
- .scroll{margin-top:18px}
+ 
+.scroll{margin-top:18px}
  .social{grid-template-columns:repeat(2,1fr)}
  .social a{border-bottom:1px solid #2a2926}
  .panel p:not(.lead),.card p,.exp>p,.project p{font-size:16px}
@@ -42,9 +40,8 @@ body{font-size:16px;color:var(--text)}
  .meta{font-size:10px}
  .hero-bottom-actions{margin-top:48px}
  .hero-bottom-actions a{font-size:10px}
- .hero-tags{gap:6px}
- .hero-tags span{font-size:9px;padding:7px 8px}
- .panel p:not(.lead),.card p,.exp>p,.project p{font-size:16px;line-height:1.8}
+ 
+.panel p:not(.lead),.card p,.exp>p,.project p{font-size:16px;line-height:1.8}
  .lead{font-size:22px;line-height:1.55}
  .social{grid-template-columns:1fr 1fr}
  .social a{font-size:11px;padding:17px 10px}
