@@ -49,3 +49,97 @@ body{font-size:16px;color:var(--text)}
  .social{grid-template-columns:1fr 1fr}
  .social a{font-size:11px;padding:17px 10px}
 }
+
+
+/* Targeted recruiter-readability updates */
+.hero-text{
+  font-size:20px;
+  line-height:1.85;
+  max-width:735px;
+}
+.meta{
+  font-size:11px;
+  gap:34px;
+  margin-top:58px;
+  color:#9a958d;
+}
+.hero-bottom-actions{
+  gap:18px;
+  max-width:470px;
+}
+.hero-bottom-actions a{
+  min-height:52px;
+  padding:15px 17px;
+  gap:13px;
+  font-size:12px;
+  letter-spacing:.13em;
+}
+.hero-bottom-actions .action-icon{
+  width:30px;
+  height:30px;
+  display:grid;
+  place-items:center;
+  border:1px solid currentColor;
+  font-size:14px;
+}
+.hero-tags{
+  gap:10px;
+}
+.hero-tags span{
+  padding:9px 11px;
+}
+.info{
+  gap:20px;
+}
+.info>div{
+  padding:30px;
+  min-height:135px;
+}
+.info b{
+  font-size:20px;
+  line-height:1.4;
+}
+.info span{
+  font-size:13px;
+  line-height:1.6;
+}
+.stats{
+  gap:28px;
+}
+.stats b{
+  font-size:48px;
+  line-height:1;
+}
+.stats small{
+  font-size:11px;
+  margin-top:9px;
+  line-height:1.4;
+}
+.panel p:not(.lead){
+  line-height:1.9;
+}
+@media(max-width:850px){
+  .hero-text{font-size:19px;line-height:1.8}
+  .meta{gap:10px}
+  .hero-bottom-actions{gap:14px}
+  .info{gap:16px}
+  .info>div{min-height:auto}
+}
+@media(max-width:480px){
+  .hero-text{font-size:18px;line-height:1.75}
+  .hero-bottom-actions{
+    display:flex;
+    gap:10px;
+  }
+  .hero-bottom-actions a{
+    min-width:0;
+    padding:12px 10px;
+    font-size:10px;
+  }
+  .hero-bottom-actions .action-icon{
+    width:27px;
+    height:27px;
+  }
+  .stats{gap:12px}
+  .stats b{font-size:42px}
+}
