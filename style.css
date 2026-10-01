@@ -58,3 +58,15 @@ body{font-size:16px;color:var(--text)}
 .stats b{font-size:48px;line-height:1}.stats small{font-size:11px;margin-top:9px;line-height:1.4}
 @media(max-width:850px){.hero-text{font-size:19px;line-height:1.8}.meta{gap:10px}}
 @media(max-width:600px){.hero .hero-bottom-actions{gap:12px;max-width:100%}.hero .hero-bottom-actions a{min-width:0;padding:12px 10px;font-size:10px}.hero .hero-bottom-actions .action-icon{width:27px;height:27px}}
+
+/* Project library */
+.repo-library{margin-top:42px;border:1px solid #343430;background:#0b0b0a;padding:30px}
+.repo-heading h3{font-size:34px;margin-bottom:10px}.repo-heading p{font-size:15px;line-height:1.8;color:#aaa69e;max-width:760px}
+.repo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:24px}
+.repo-grid a{display:flex;flex-direction:column;gap:10px;min-height:130px;padding:18px;border:1px solid #343430;transition:transform .2s,border-color .2s}
+.repo-grid a:hover{transform:translateY(-3px);border-color:#858078}
+.repo-grid small{font-size:9px;letter-spacing:.14em;color:#8f8a82}
+.repo-grid b{font:500 17px 'Playfair Display',serif;line-height:1.4}
+.repo-grid span{font-size:11px;color:#aaa69e;margin-top:auto}
+@media(max-width:850px){.repo-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.repo-grid{grid-template-columns:1fr}.repo-library{padding:20px}.repo-heading h3{font-size:28px}}

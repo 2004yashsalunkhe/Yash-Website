@@ -1,30 +1,26 @@
-YASH SALUNKHE — PROFESSIONAL PORTFOLIO
+YASH SALUNKHE — UPDATED PROFESSIONAL PORTFOLIO
 
-Files:
-- index.html
-- style.css
-- script.js
-- Yash Salunkhe_ATS Resume.pdf
+Included:
+- index.html — updated hero summary, About, skills and project library
+- style.css — responsive styling for the new project library
+- script.js — existing interactions and animations
+- Yash Salunkhe_ATS Resume.pdf — supplied resume
 
-The YS logo/mark has been removed. The top-left now shows the name “Yash.”
+Updates:
+- Added MS Excel wording in About and skills.
+- Expanded summary with Google Looker Studio, dashboards, KPI cards, reporting,
+  Data Analyst and Business Analyst focus, and WealthTech, InsurTech,
+  Digital Lending and Digital Payments.
+- Added a project library covering the requested formats and a link to the
+  GitHub profile/relevant existing repositories.
 
-GSAP is included through jsDelivr in index.html. Internet is needed for the GSAP CDN and Google Fonts.
+Note: For categories without a dedicated repository URL supplied or verified,
+the card links to the GitHub profile so you can add the exact repository later.
 
-Run in VS Code:
-1. Extract/open this folder in VS Code.
-2. Install Live Server extension (optional but recommended).
-3. Right-click index.html -> Open with Live Server.
+Run locally:
+1. Open this folder in VS Code.
+2. Open index.html with Live Server.
 
-Deploy to Vercel:
-- Push these files to GitHub.
-- Import the repository into Vercel.
-- Framework: Other.
-- Build command/output directory can remain blank.
-
-All long social/project URLs are kept in the backend HTML href attributes; visitors see only short labels.
-
-
-Portfolio project link added to the Projects section:
-- https://github.com/2004yashsalunkhe/Portfolio-Website
-
-Portfolio summary and skills now include Google Looker Studio, Data Analyst and Business Analyst KPI cards and reporting, plus WealthTech, InsurTech, Digital Lending and Digital Payments. Tool listings use MS Excel.
+Deploy:
+Push the folder contents to GitHub and import the repository into Vercel.
+Framework: Other; no build command required.
