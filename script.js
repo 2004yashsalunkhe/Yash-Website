@@ -1,5 +1,10 @@
 document.addEventListener('DOMContentLoaded',()=>{
  const reduced=matchMedia('(prefers-reduced-motion:reduce)').matches;
+ const themeToggle=document.getElementById('theme-toggle');
+ const applyTheme=(theme)=>{document.body.classList.toggle('day-mode',theme==='day');if(themeToggle){const day=theme==='day';themeToggle.innerHTML=day?'<i class="fa-solid fa-moon" aria-hidden="true"></i><span>Night Mode</span>':'<i class="fa-solid fa-sun" aria-hidden="true"></i><span>Day Mode</span>';themeToggle.setAttribute('aria-label',day?'Switch to night mode':'Switch to day mode');}};
+ let savedTheme='night';try{savedTheme=localStorage.getItem('yash-portfolio-theme')||'night';}catch(e){}
+ applyTheme(savedTheme);
+ themeToggle?.addEventListener('click',()=>{const next=document.body.classList.contains('day-mode')?'night':'day';applyTheme(next);try{localStorage.setItem('yash-portfolio-theme',next);}catch(e){}});
  const menu=document.getElementById('mobile-menu'),menuBtn=document.getElementById('menu-btn');
  menuBtn?.addEventListener('click',()=>menu.classList.toggle('open'));
  menu?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>menu.classList.remove('open')));

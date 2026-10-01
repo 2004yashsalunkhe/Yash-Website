@@ -74,3 +74,51 @@ body{font-size:16px;color:var(--text)}
 .repo-grid>a span{font-size:12px;line-height:1.5;color:#aaa69e;margin-top:auto;padding-top:16px}
 @media(max-width:850px){.repo-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.repo-heading h3{font-size:38px}}
 @media(max-width:560px){.repo-grid{grid-template-columns:1fr}.repo-grid>a{min-height:125px}.repo-heading h3{font-size:34px}.repo-heading p{font-size:15px}}
+
+
+/* Day/Night theme switch */
+.nav-tools{display:flex;align-items:center;gap:12px}
+.theme-toggle{display:inline-flex;align-items:center;gap:8px;padding:10px 12px;border:1px solid #55524c;background:transparent;color:#eee9e0;font:600 10px 'Inter','DM Sans',sans-serif;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;transition:background .2s,color .2s,border-color .2s}
+.theme-toggle i{font-size:13px}
+.theme-toggle:hover{background:#252521}
+body.day-mode{background:#f5f7fa;color:#202938}
+body.day-mode:before{opacity:.008}
+body.day-mode .nav{background:rgba(250,252,255,.9);border-color:#dce2e9}
+body.day-mode .nav nav a,body.day-mode .nav-btn{color:#586477}
+body.day-mode .nav nav a:hover{color:#111827}
+body.day-mode .logo{color:#172033}
+body.day-mode .nav-btn,body.day-mode .theme-toggle{border-color:#c7d0dc;color:#263449}
+body.day-mode .theme-toggle:hover{background:#e8edf4}
+body.day-mode .mobile-menu{background:#f7f9fc;border-color:#dce2e9;color:#202938}
+body.day-mode .mobile-menu a{color:#202938}
+body.day-mode .menu-btn span{background:#202938}
+body.day-mode .num,body.day-mode .eyebrow,body.day-mode .meta,body.day-mode .scroll,body.day-mode .stats small,body.day-mode .info small,body.day-mode .skill small,body.day-mode .contact-grid small,body.day-mode .exp-top small,body.day-mode .project>small{color:#64748b}
+body.day-mode .hero-text,body.day-mode .panel p:not(.lead),body.day-mode .card p,body.day-mode .exp>p,body.day-mode .project p{color:#536174}
+body.day-mode .hero-text strong{color:#1e293b}
+body.day-mode .panel,body.day-mode .info>div,body.day-mode .card,body.day-mode .exp,body.day-mode .project,body.day-mode .skill,body.day-mode .contact-box{background:#fff;border-color:#dce2e9}
+body.day-mode .panel:after,body.day-mode .card:after,body.day-mode .exp:after,body.day-mode .project:after,body.day-mode .skill:after,body.day-mode .contact-box:after{border-right-color:#d7dee8;border-bottom-color:#d7dee8}
+body.day-mode .lead,body.day-mode .info b,body.day-mode .card h3,body.day-mode .exp h3,body.day-mode .project h3,body.day-mode .skill p,body.day-mode .stats b,body.day-mode .head h2,body.day-mode h1{color:#172033}
+body.day-mode .chips span{border-color:#d6deea;color:#475569}
+body.day-mode .links,body.day-mode .stats,body.day-mode .project>a{border-color:#e2e8f0}
+body.day-mode .links a,body.day-mode .project>a{color:#475569}
+body.day-mode .links a:hover,body.day-mode .project>a:hover{color:#0f172a}
+body.day-mode .hero-bottom-actions a{background:#fff;color:#253247;border-color:#cbd5e1}
+body.day-mode .hero-bottom-actions a:last-child,body.day-mode .light{background:#1f2937;color:#fff;border-color:#1f2937}
+body.day-mode .shape,body.day-mode .orbit{border-color:#cbd5e1}
+body.day-mode .art-square{border-color:#94a3b8}
+body.day-mode .art span{color:#64748b}
+body.day-mode .contact-grid a{border-color:#dce2e9}
+body.day-mode .contact-grid b{color:#172033}
+body.day-mode .contact-grid span,body.day-mode .muted,body.day-mode .info span,body.day-mode .project-count span{color:#64748b}
+body.day-mode .social{border-color:#dce2e9}
+body.day-mode .social a{color:#475569;border-color:#dce2e9}
+body.day-mode .social-icon{border-color:#cbd5e1}
+body.day-mode footer{border-color:#dce2e9;color:#64748b}
+body.day-mode footer b{color:#334155}
+body.day-mode .cursor-dot{background:#1e293b}
+body.day-mode .cursor-ring{border-color:#64748b}
+body.day-mode .loader{background:#f5f7fa;color:#172033}
+body.day-mode .loader i{background:#d1d5db}
+body.day-mode .loader i:after{background:#334155}
+@media(max-width:850px){.nav-tools{gap:8px}.theme-toggle{padding:9px 10px;font-size:9px}}
+@media(max-width:480px){.theme-toggle{padding:8px 9px}.theme-toggle span{display:none}.theme-toggle{width:36px;height:36px;justify-content:center}}
