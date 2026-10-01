@@ -22,3 +22,9 @@ Deploy to Vercel:
 - Build command/output directory can remain blank.
 
 All long social/project URLs are kept in the backend HTML href attributes; visitors see only short labels.
+
+
+Portfolio project link added to the Projects section:
+- https://github.com/2004yashsalunkhe/Portfolio-Website
+
+Portfolio summary and skills now include Google Looker Studio, Data Analyst and Business Analyst KPI cards and reporting, plus WealthTech, InsurTech, Digital Lending and Digital Payments. Tool listings use MS Excel.
